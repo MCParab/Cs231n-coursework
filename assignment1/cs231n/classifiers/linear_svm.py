@@ -122,7 +122,7 @@ def svm_loss_vectorized(W, X, y, reg):
   X_mask = np.zeros(margins.shape)
   # column maps to class, row maps to sample; a value v in X_mask[i, j]
   # adds a row sample i to column class j with multiple of v
-  X_mask[marpassgins > 0] = 1
+  X_mask[margins > 0] = 1
   # for each sample, find the total number of classes where margin > 0
   incorrect_counts = np.sum(X_mask, axis=1)
   X_mask[np.arange(num_train), y] = -incorrect_counts
