@@ -1,0 +1,946 @@
+--2017-11-19 00:11:58--  http://cs231n.stanford.edu/coco_captioning.zip
+Resolving cs231n.stanford.edu (cs231n.stanford.edu)... 171.64.68.10
+Connecting to cs231n.stanford.edu (cs231n.stanford.edu)|171.64.68.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1035210391 (987M) [application/zip]
+Saving to: ‘coco_captioning.zip’
+
+coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 50m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 50m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 50m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 50m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 50m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 50m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 50m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 50m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 50m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 50m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 51m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 51m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 51m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 51m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 51m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 51m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 51m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 51m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 51m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 51m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 52m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 52m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 52m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 52m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 52m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 52m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 52m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 52m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 52m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 52m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 53m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 53m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 53m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 53m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 53m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 53m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 53m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 53m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 54m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 54m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 54m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 54m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 54m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 54m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 54m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 54m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 54m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 54m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 55m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 55m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 55m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 55m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 55m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 55m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 55m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 55m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 55m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 55m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 56m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 56m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 56m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 56m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 56m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 56m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 56m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 56m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 56m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 56m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 57m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 57m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 57m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 57m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 57m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 57m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 57m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 57m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 57m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 57m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 58m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 58m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 58m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 58m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 58m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 58m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 58m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 58m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 59m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 59m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 59m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 59m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 59m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 59m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 59m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 59m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 59m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 4h 59m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 0m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 0m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 0m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 0m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 0m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 0m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 0m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 0m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 0m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 0m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 1m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 1m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 1m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 1m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 1m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 1m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 1m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 1m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 1m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 1m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 2m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 2m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 2m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 2m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 2m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 2m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 2m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 2m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 2m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 2m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 3m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 3m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 3m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 3m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 3m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 3m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 3m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 3m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 3m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 3m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 4m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 4m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 4m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 4m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 4m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 4m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 4m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 4m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 5m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 5m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 5m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 5m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 5m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 5m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 5m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 5m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 5m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 5m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 6m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 6m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 6m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 6m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 6m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 6m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 6m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 6m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 6m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 6m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 7m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 7m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 7m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 7m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 7m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 7m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 7m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 7m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 7m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 7m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 8m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 8m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 8m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 8m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 8m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 8m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 8m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 8m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 8m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 8m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 9m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 9m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 9m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 9m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 9m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 9m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 9m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 9m  coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 10m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 10m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 10m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 10m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 10m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 10m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 10m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 10m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 10m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 10m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 11m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 11m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 11m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 11m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 11m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 11m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 11m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 11m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 11m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 11m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 12m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 12m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 12m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 12m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 12m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 12m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 12m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 12m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 12m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 12m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 13m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 13m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 13m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 13m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 13m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 13m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 13m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 13m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 13m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 13m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 14m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 14m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 14m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 14m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 14m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 14m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 14m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 14m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 14m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 14m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 15m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 15m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 15m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 15m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 15m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 15m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 15m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 15m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 16m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 16m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 16m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 16m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 16m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 16m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 16m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 16m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 16m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 16m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 17m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 17m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 17m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 17m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 17m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 17m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 17m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 17m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 17m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 17m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 18m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 18m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 18m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 18m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 18m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 18m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 18m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 18m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 18m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 18m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 19m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 19m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 19m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 19m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 19m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 19m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 19m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 19m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 19m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 19m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 20m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 20m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 20m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 20m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 20m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 20m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 20m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 20m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 21m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 21m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 21m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 21m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 21m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 21m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 21m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 21m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 21m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 21m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 22m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 22m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 22m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 22m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 22m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 22m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 22m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 22m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 22m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 22m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 23m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 23m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 23m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 23m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 23m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 23m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 23m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 23m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 23m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 23m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 24m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 24m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 24m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 24m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 24m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 24m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 24m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 24m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 24m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 24m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 25m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 25m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 25m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 25m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 25m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 25m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 25m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 25m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 25m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 25m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 26m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 26m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 26m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 26m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 26m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 26m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 26m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 26m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 27m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 27m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 27m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 27m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 27m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 27m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 27m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 27m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 27m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 27m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 28m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 28m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 28m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 28m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 28m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 28m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 28m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 28m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 28m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 28m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 29m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 29m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 29m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 29m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 29m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 29m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 29m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 29m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 29m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 29m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 30m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 30m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 30m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 30m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 30m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 30m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 30m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 30m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 30m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 30m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 31m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 32m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 33m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 34m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 35m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 36m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 37m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 38m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 39m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 40m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 41m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 42m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 43m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 44m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 45m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 46m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 47m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 48m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 49m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 50m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 50m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 50m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    eta 5h 50m coco_captioning.zip  13%[=>                  ] 130.85M  --.-KB/s    in 53m 31s 
+
+2017-11-19 01:35:17 (41.7 KB/s) - Read error at byte 137202793/1035210391 (Connection timed out). Retrying.
+
+--2017-11-19 01:35:18--  (try: 2)  http://cs231n.stanford.edu/coco_captioning.zip
+Connecting to cs231n.stanford.edu (cs231n.stanford.edu)|171.64.68.10|:80... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 1035210391 (987M), 898007598 (856M) remaining [application/zip]
+Saving to: ‘coco_captioning.zip’
+
+        [ skipping 133950K ]
+133950K ,,,,,,,,,, ,,,,,,,,,, ,,,,,,,,,, ,,,,,,,... .......... 13% 55.7K 16h58m
+134000K .......... .......... .......... .......... .......... 13% 17.8K 14h22m
+134050K .......... .......... .......... .......... .......... 13% 25.2K 12h16m
+134100K .......... .......... .......... .......... .......... 13% 28.9K 11h5m
+134150K .......... .......... .......... .......... .......... 13% 29.5K 10h25m
+134200K .......... .......... .......... .......... .......... 13% 23.4K 10h25m
+134250K .......... .......... .......... .......... .......... 13% 48.4K 9h33m
+134300K .......... .......... .......... .......... .......... 13% 38.1K 9h7m
+134350K .......... .......... .......... .......... .......... 13% 31.6K 8h56m
+134400K .......... .......... .......... .......... .......... 13% 30.4K 8h50m
+134450K .......... .......... .......... .......... .......... 13% 31.3K 8h44m
+134500K .......... .......... .......... .......... .......... 13% 36.4K 8h33m
+134550K .......... .......... .......... .......... .......... 13% 33.4K 8h27m
+134600K .......... .......... .......... .......... .......... 13% 28.7K 8h27m
+134650K .......... .......... .......... .......... .......... 13% 29.5K 8h26m
+134700K .......... .......... .......... .......... .......... 13% 26.8K 8h28m
+134750K .......... .......... .......... .......... .......... 13% 35.4K 8h22m
+134800K .......... .......... .......... .......... .......... 13% 33.0K 8h19m
+134850K .......... .......... .......... .......... .......... 13% 25.4K 8h23m
+134900K .......... .......... .......... .......... .......... 13% 38.8K 8h16m
+134950K .......... .......... .......... .......... .......... 13% 24.4K 8h21m
+135000K .......... .......... .......... .......... .......... 13% 31.8K 8h19m
+135050K .......... .......... .......... .......... .......... 13% 30.1K 8h19m
+135100K .......... .......... .......... .......... .......... 13% 39.1K 8h13m
+135150K .......... .......... .......... .......... .......... 13% 30.5K 8h13m
+135200K .......... .......... .......... .......... .......... 13% 36.1K 8h9m
+135250K .......... .......... .......... .......... .......... 13% 28.5K 8h10m
+135300K .......... .......... .......... .......... .......... 13% 27.7K 8h11m
+135350K .......... .......... .......... .......... .......... 13% 33.1K 8h9m
+135400K .......... .......... .......... .......... .......... 13% 38.2K 8h6m
+135450K .......... .......... .......... .......... .......... 13% 33.4K 8h4m
+135500K .......... .......... .......... .......... .......... 13% 34.1K 8h2m
+135550K .......... .......... .......... .......... .......... 13% 30.8K 8h2m
+135600K .......... .......... .......... .......... .......... 13% 43.6K 7h57m
+135650K .......... .......... .......... .......... .......... 13% 32.5K 7h56m
+135700K .......... .......... .......... .......... .......... 13% 37.1K 7h54m
+135750K .......... .......... .......... .......... .......... 13% 32.6K 7h53m
+135800K .......... .......... .......... .......... .......... 13% 31.8K 7h53m
+135850K .......... .......... .......... .......... .......... 13% 51.9K 7h48m
+135900K .......... .......... .......... .......... .......... 13% 35.5K 7h46m
+135950K .......... .......... .......... .......... .......... 13% 31.3K 7h46m
+136000K .......... .......... .......... .......... .......... 13% 26.4K 7h48m
+136050K .......... .......... .......... .......... .......... 13% 26.6K 7h50m
+136100K .......... .......... .......... .......... .......... 13% 30.3K 7h50m
+136150K .......... .......... .......... .......... .......... 13% 29.7K 7h51m
+136200K .......... .......... .......... .......... .......... 13% 23.4K 7h54m
+136250K .......... .......... .......... .......... .......... 13% 53.4K 7h50m
+136300K .......... .......... .......... .......... .......... 13% 28.9K 7h50m
+136350K .......... .......... .......... .......... .......... 13% 32.8K 7h50m
+136400K .......... .......... .......... .......... .......... 13% 26.4K 7h52m
+136450K .......... .......... .......... .......... .......... 13% 27.8K 7h53m
+136500K .......... .......... .......... .......... .......... 13% 34.2K 7h52m
+136550K .......... .......... .......... .......... .......... 13% 45.8K 7h49m
+136600K .......... .......... .......... .......... .......... 13% 30.1K 7h49m
+136650K .......... .......... .......... .......... .......... 13% 48.7K 7h46m
+136700K .......... .......... .......... .......... .......... 13% 32.1K 7h45m
+136750K .......... .......... .......... .......... .......... 13% 32.2K 7h45m
+136800K .......... .......... .......... .......... .......... 13% 19.6K 7h50m
+136850K .......... .......... .......... .......... .......... 13% 35.3K 7h49m
+136900K .......... .......... .......... .......... .......... 13% 31.2K 7h49m
+136950K .......... .......... .......... .......... .......... 13% 39.2K 7h47m
+137000K .......... .......... .......... .......... .......... 13% 30.5K 7h47m
+137050K .......... .......... .......... .......... .......... 13% 42.4K 7h45m
+137100K .......... .......... .......... .......... .......... 13% 31.8K 7h45m
+137150K .......... .......... .......... .......... .......... 13% 28.0K 7h46m
+137200K .......... .......... .......... .......... .......... 13% 28.7K 7h47m
+137250K .......... .......... .......... .......... .......... 13% 30.1K 7h47m
+137300K .......... .......... .......... .......... .......... 13% 22.1K 7h50m
+137350K .......... .......... .......... .......... .......... 13% 49.2K 7h47m
+137400K .......... .......... .......... .......... .......... 13% 35.1K 7h46m
+137450K .......... .......... .......... .......... .......... 13% 32.0K 7h46m
+137500K .......... .......... .......... .......... .......... 13% 30.1K 7h46m
+137550K .......... .......... .......... .......... .......... 13% 33.7K 7h46m
+137600K .......... .......... .......... .......... .......... 13% 34.3K 7h45m
+137650K .......... .......... .......... .......... .......... 13% 38.7K 7h44m
+137700K .......... .......... .......... .......... .......... 13% 34.2K 7h43m
+137750K .......... .......... .......... .......... .......... 13% 35.1K 7h43m
+137800K .......... .......... .......... .......... .......... 13% 34.3K 7h42m
+137850K .......... .......... .......... .......... .......... 13% 32.5K 7h42m
+137900K .......... .......... .......... .......... .......... 13% 29.6K 7h42m
+137950K .......... .......... .......... .......... .......... 13% 51.8K 7h40m
+138000K .......... .......... .......... .......... .......... 13% 34.1K 7h40m
+138050K .......... .......... .......... .......... .......... 13% 23.5K 7h41m
+138100K .......... .......... .......... .......... .......... 13% 36.1K 7h41m
+138150K .......... .......... .......... .......... .......... 13% 24.9K 7h42m
+138200K .......... .......... .......... .......... .......... 13% 32.8K 7h42m
+138250K .......... .......... .......... .......... .......... 13% 24.9K 7h43m
+138300K .......... .......... .......... .......... .......... 13% 26.3K 7h44m
+138350K .......... .......... .......... .......... .......... 13% 21.9K 7h47m
+138400K .......... .......... .......... .......... .......... 13% 28.5K 7h47m
+138450K .......... .......... .......... .......... .......... 13% 27.4K 7h48m
+138500K .......... .......... .......... .......... .......... 13% 26.9K 7h48m
+138550K .......... .......... .......... .......... .......... 13% 24.5K 7h50m
+138600K .......... .......... .......... .......... .......... 13% 22.1K 7h52m
+138650K .......... .......... .......... .......... .......... 13% 15.0K 7h57m
+138700K .......... .......... .......... .......... .......... 13% 21.7K 7h59m
+138750K .......... .......... .......... .......... .......... 13% 25.1K 8h0m
+138800K .......... .......... .......... .......... .......... 13% 25.2K 8h1m
+138850K .......... .......... .......... .......... .......... 13% 27.3K 8h1m
+138900K .......... .......... .......... .......... .......... 13% 28.4K 8h2m
+138950K .......... .......... .......... .......... .......... 13% 35.7K 8h1m
+139000K .......... .......... .......... .......... .......... 13% 27.6K 8h1m
+139050K .......... .......... .......... .......... .......... 13% 29.2K 8h2m
+139100K .......... .......... .......... .......... .......... 13% 29.0K 8h2m
+139150K .......... .......... .......... .......... .......... 13% 33.5K 8h1m
+139200K .......... .......... .......... .......... .......... 13% 31.9K 8h1m
+139250K .......... .......... .......... .......... .......... 13% 28.7K 8h1m
+139300K .......... .......... .......... .......... .......... 13% 32.4K 8h1m
+139350K .......... .......... .......... .......... .......... 13% 31.6K 8h1m
+139400K .......... .......... .......... .......... .......... 13% 45.8K 7h59m
+139450K .......... .......... .......... .......... .......... 13% 37.3K 7h58m
+139500K .......... .......... .......... .......... .......... 13% 35.0K 7h58m
+139550K .......... .......... .......... .......... .......... 13% 47.5K 7h56m
+139600K .......... .......... .......... .......... .......... 13% 28.3K 7h56m
+139650K .......... .......... .......... .......... .......... 13% 62.9K 7h54m
+139700K .......... .......... .......... .......... .......... 13% 24.7K 7h55m
+139750K .......... .......... .......... .......... .......... 13% 57.4K 7h53m
+139800K .......... .......... .......... .......... .......... 13% 31.7K 7h53m
+139850K .......... .......... .......... .......... .......... 13% 38.6K 7h52m
+139900K .......... .......... .......... .......... .......... 13% 38.1K 7h51m
+139950K .......... .......... .......... .......... .......... 13% 41.4K 7h50m
+140000K .......... .......... .......... .......... .......... 13% 39.5K 7h49m
+140050K .......... .......... .......... .......... .......... 13% 35.6K 7h49m
+140100K .......... .......... .......... .......... .......... 13% 33.3K 7h49m
+140150K .......... .......... .......... .......... .......... 13% 35.3K 7h48m
+140200K .......... .......... .......... .......... .......... 13% 32.9K 7h48m
+140250K .......... .......... .......... .......... .......... 13% 35.2K 7h47m
+140300K .......... .......... .......... .......... .......... 13% 34.8K 7h47m
+140350K .......... .......... .......... .......... .......... 13% 23.4K 7h48m
+140400K .......... .......... .......... .......... .......... 13% 40.7K 7h47m
+140450K .......... .......... .......... .......... .......... 13% 26.8K 7h48m
+140500K .......... .......... .......... .......... .......... 13% 26.5K 7h48m
+140550K .......... .......... .......... .......... .......... 13% 28.4K 7h49m
+140600K .......... .......... .......... .......... .......... 13% 23.4K 7h50m
+140650K .......... .......... .......... .......... .......... 13% 24.3K 7h51m
+140700K .......... .......... .......... .......... .......... 13% 22.2K 7h52m
+140750K .......... .......... .......... .......... .......... 13% 34.2K 7h52m
+140800K .......... .......... .......... .......... .......... 13% 34.4K 7h51m
+140850K .......... .......... .......... .......... .......... 13% 23.8K 7h52m
+140900K .......... .......... .......... .......... .......... 13% 56.9K 7h51m
+140950K .......... .......... .......... .......... .......... 13% 27.9K 7h51m
+141000K .......... .......... .......... .......... .......... 13% 29.9K 7h51m
+141050K .......... .......... .......... .......... .......... 13% 33.8K 7h51m
+141100K .......... .......... .......... .......... .......... 13% 23.2K 7h52m
+141150K .......... .......... .......... .......... .......... 13% 47.8K 7h50m
+141200K .......... .......... .......... .......... .......... 13% 35.3K 7h50m
+141250K .......... .......... .......... .......... .......... 13% 30.4K 7h50m
+141300K .......... .......... .......... .......... .......... 13% 26.6K 7h51m
+141350K .......... .......... .......... .......... .......... 13% 24.1K 7h51m
+141400K .......... .......... .......... .......... .......... 13% 33.8K 7h51m
+141450K .......... .......... .......... .......... .......... 13% 40.8K 7h50m
+141500K .......... .......... .......... .......... .......... 14% 31.6K 7h50m
+141550K .......... .......... .......... .......... .......... 14% 34.2K 7h50m
+141600K .......... .......... .......... .......... .......... 14% 31.3K 7h50m
+141650K .......... .......... .......... .......... .......... 14% 24.4K 7h51m
+141700K .......... .......... .......... .......... .......... 14% 36.8K 7h50m
+141750K .......... .......... .......... .......... .......... 14% 31.2K 7h50m
+141800K .......... .......... .......... .......... .......... 14% 37.8K 7h49m
+141850K .......... .......... .......... .......... .......... 14% 38.4K 7h49m
+141900K .......... .......... .......... .......... .......... 14% 31.7K 7h49m
+141950K .......... .......... .......... .......... .......... 14% 65.6K 7h47m
+142000K .......... .......... .......... .......... .......... 14% 34.1K 7h47m
+142050K .......... .......... .......... .......... .......... 14% 30.6K 7h47m
+142100K .......... .......... .......... .......... .......... 14% 23.7K 7h48m
+142150K .......... .......... .......... .......... .......... 14% 20.4K 7h49m
+142200K .......... .......... .......... .......... .......... 14% 28.1K 7h49m
+142250K .......... .......... .......... .......... .......... 14% 23.6K 7h50m
+142300K .......... .......... .......... .......... .......... 14% 20.9K 7h51m
+142350K .......... .......... .......... .......... .......... 14% 24.0K 7h52m
+142400K .......... .......... .......... .......... .......... 14% 40.2K 7h52m
+142450K .......... .......... .......... .......... .......... 14% 34.1K 7h51m
+142500K .......... .......... .......... .......... .......... 14% 25.8K 7h52m
+142550K .......... .......... .......... .......... .......... 14% 32.6K 7h52m
+142600K .......... .......... .......... .......... .......... 14% 27.4K 7h52m
+142650K .......... .......... .......... .......... .......... 14% 30.2K 7h52m
+142700K .......... .......... .......... .......... .......... 14% 28.9K 7h52m
+142750K .......... .......... .......... .......... .......... 14% 23.6K 7h53m
+142800K .......... .......... .......... .......... .......... 14% 29.7K 7h53m
+142850K .......... .......... .......... .......... .......... 14% 42.9K 7h52m
+142900K .......... .......... .......... .......... .......... 14% 22.8K 7h53m
+142950K .......... .......... .......... .......... .......... 14% 15.4K 7h55m
+143000K .......... .......... .......... .......... .......... 14% 21.9K 7h56m
+143050K .......... .......... .......... .......... .......... 14% 25.7K 7h57m
+143100K .......... .......... .......... .......... .......... 14% 20.6K 7h58m
+143150K .......... .......... .......... .......... .......... 14% 27.8K 7h58m
+143200K .......... .......... .......... .......... .......... 14% 25.0K 7h59m
+143250K .......... .......... .......... .......... .......... 14% 27.3K 7h59m
+143300K .......... .......... .......... .......... .......... 14% 36.4K 7h59m
+143350K .......... .......... .......... .......... .......... 14% 24.7K 7h59m
+143400K .......... .......... .......... .......... .......... 14% 55.7K 7h58m
+143450K .......... .......... .......... .......... .......... 14% 34.8K 7h58m
+143500K .......... .......... .......... .......... .......... 14% 33.9K 7h57m
+143550K .......... .......... .......... .......... .......... 14% 33.2K 7h57m
+143600K .......... .......... .......... .......... .......... 14% 45.8K 7h56m
+143650K .......... .......... .......... .......... .......... 14% 35.5K 7h56m
+143700K .......... .......... .......... .......... .......... 14% 23.0K 7h57m
+143750K .......... .......... .......... .......... .......... 14% 37.5K 7h56m
+143800K .......... .......... .......... .......... .......... 14% 30.9K 7h56m
+143850K .......... .......... .......... .......... .......... 14% 36.1K 7h56m
+143900K .......... .......... .......... .......... .......... 14% 20.7K 7h57m
+143950K .......... .......... .......... .......... .......... 14% 47.6K 7h56m
+144000K .......... .......... .......... .......... .......... 14% 22.7K 7h57m
+144050K .......... .......... .......... .......... .......... 14% 27.7K 7h57m
+144100K .......... .......... .......... .......... .......... 14% 20.4K 7h58m
+144150K .......... .......... .......... .......... .......... 14% 29.7K 7h58m
+144200K .......... .......... .......... .......... .......... 14% 30.7K 7h58m
+144250K .......... .......... .......... .......... .......... 14% 26.5K 7h58m
+144300K .......... .......... .......... .......... .......... 14% 20.1K 7h59m
+144350K .......... .......... .......... .......... .......... 14% 17.9K 8h1m
+144400K .......... .......... .......... .......... .......... 14% 35.5K 8h0m
+144450K .......... .......... .......... .......... .......... 14% 36.4K 8h0m
+144500K .......... .......... .......... .......... .......... 14% 38.1K 7h59m
+144550K .......... .......... .......... .......... .......... 14% 29.7K 7h59m
+144600K .......... .......... .......... .......... .......... 14% 42.3K 7h59m
+144650K .......... .......... .......... .......... .......... 14% 31.0K 7h59m
+144700K .......... .......... .......... .......... .......... 14% 30.2K 7h59m
+144750K .......... .......... .......... .......... .......... 14% 24.9K 7h59m
+144800K .......... .......... .......... .......... .......... 14% 34.9K 7h59m
+144850K .......... .......... .......... .......... .......... 14% 33.9K 7h58m
+144900K .......... .......... .......... .......... .......... 14% 27.1K 7h59m
+144950K .......... .......... .......... .......... .......... 14% 34.4K 7h58m
+145000K .......... .......... .......... .......... .......... 14% 34.8K 7h58m
+145050K .......... .......... .......... .......... .......... 14% 24.0K 7h59m
+145100K .......... .......... .......... .......... .......... 14% 27.0K 7h59m
+145150K .......... .......... .......... .......... .......... 14% 30.1K 7h59m
+145200K .......... .......... .......... .......... .......... 14% 30.5K 7h59m
+145250K .......... .......... .......... .......... .......... 14% 29.2K 7h59m
+145300K .......... .......... .......... .......... .......... 14% 60.2K 7h58m
+145350K .......... .......... .......... .......... .......... 14% 28.1K 7h58m
+145400K .......... .......... .......... .......... .......... 14% 70.2K 7h57m
+145450K .......... .......... .......... .......... .......... 14% 43.8K 7h56m
+145500K .......... .......... .......... .......... .......... 14% 39.1K 7h55m
+145550K .......... .......... .......... .......... .......... 14% 44.5K 7h55m
+145600K .......... .......... .......... .......... .......... 14% 28.9K 7h55m
+145650K .......... .......... .......... .......... .......... 14% 57.0K 7h54m
+145700K .......... .......... .......... .......... .......... 14% 33.5K 7h54m
+145750K .......... .......... .......... .......... .......... 14% 28.6K 7h54m
+145800K .......... .......... .......... .......... .......... 14% 19.0K 7h55m
+145850K .......... .......... .......... .......... .......... 14% 17.5K 7h56m
+145900K .......... .......... .......... .......... .......... 14% 28.4K 7h56m
+145950K .......... .......... .......... .......... .......... 14% 29.0K 7h57m
+146000K .......... .......... .......... .......... .......... 14% 34.4K 7h56m
+146050K .......... .......... .......... .......... .......... 14% 30.0K 7h56m
+146100K .......... .......... .......... .......... .......... 14% 37.2K 7h56m
+146150K .......... .......... .......... .......... .......... 14% 37.5K 7h55m
+146200K .......... .......... .......... .......... .......... 14% 37.9K 7h55m
+146250K .......... .......... .......... .......... .......... 14% 23.8K 7h56m
+146300K .......... .......... .......... .......... .......... 14% 67.8K 7h54m
+146350K .......... .......... .......... .......... .......... 14% 32.1K 7h54m
+146400K .......... .......... .......... .......... .......... 14% 35.2K 7h54m
+146450K .......... .......... .......... .......... .......... 14% 34.7K 7h54m
+146500K .......... .......... .......... .......... .......... 14% 37.0K 7h53m
+146550K .......... .......... .......... .......... .......... 14% 41.6K 7h53m
+146600K .......... .......... .......... .......... .......... 14% 35.1K 7h53m
+146650K .......... .......... .......... .......... .......... 14% 29.6K 7h53m
+146700K .......... .......... .......... .......... .......... 14% 29.7K 7h53m
+146750K .......... .......... .......... .......... .......... 14% 31.2K 7h53m
+146800K .......... .......... .......... .......... .......... 14% 31.1K 7h52m
+146850K .......... .......... .......... .......... .......... 14% 32.9K 7h52m
+146900K .......... .......... .......... .......... .......... 14% 37.7K 7h52m
+146950K .......... .......... .......... .......... .......... 14% 32.3K 7h52m
+147000K .......... .......... .......... .......... .......... 14% 36.6K 7h51m
+147050K .......... .......... .......... .......... .......... 14% 37.1K 7h51m
+147100K .......... .......... .......... .......... .......... 14% 35.7K 7h51m
+147150K .......... .......... .......... .......... .......... 14% 39.6K 7h50m
+147200K .......... .......... .......... .......... .......... 14% 43.3K 7h50m
+147250K .......... .......... .......... .......... .......... 14% 35.9K 7h50m
+147300K .......... .......... .......... .......... .......... 14% 41.0K 7h49m
+147350K .......... .......... .......... .......... .......... 14% 29.3K 7h49m
+147400K .......... .......... .......... .......... .......... 14% 30.2K 7h49m
+147450K .......... .......... .......... .......... .......... 14% 32.4K 7h49m
+147500K .......... .......... .......... .......... .......... 14% 44.2K 7h48m
+147550K .......... .......... .......... .......... .......... 14% 38.3K 7h48m
+147600K .......... .......... .......... .......... .......... 14% 43.1K 7h48m
+147650K .......... .......... .......... .......... .......... 14% 44.1K 7h47m
+147700K .......... .......... .......... .......... .......... 14% 51.2K 7h46m
+147750K .......... .......... .......... .......... .......... 14% 28.2K 7h46m
+147800K .......... .......... .......... .......... .......... 14% 34.5K 7h46m
+147850K .......... .......... .......... .......... .......... 14% 23.9K 7h47m
+147900K .......... .......... .......... .......... .......... 14% 27.5K 7h47m
+147950K .......... .......... .......... .......... .......... 14% 27.2K 7h47m
+148000K .......... .......... .......... .......... .......... 14% 24.0K 7h47m
+148050K .......... .......... .......... .......... .......... 14% 18.2K 7h49m
+148100K .......... .......... .......... .......... .......... 14% 28.4K 7h49m
+148150K .......... .......... .......... .......... .......... 14% 20.5K 7h50m
+148200K .......... .......... .......... .......... .......... 14% 26.4K 7h50m
+148250K .......... .......... .......... .......... .......... 14% 29.4K 7h50m
+148300K .......... .......... .......... .......... .......... 14% 38.2K 7h49m
+148350K .......... .......... .......... .......... .......... 14% 36.2K 7h49m
+148400K .......... .......... .......... .......... .......... 14% 52.1K 7h48m
+148450K .......... .......... .......... .......... .......... 14% 40.5K 7h48m
+148500K .......... .......... .......... .......... .......... 14% 38.8K 7h48m
+148550K .......... .......... .......... .......... .......... 14% 30.3K 7h48m
+148600K .......... .......... .......... .......... .......... 14% 39.5K 7h47m
+148650K .......... .......... .......... .......... .......... 14% 33.1K 7h47m
+148700K .......... .......... .......... .......... .......... 14% 27.9K 7h47m
+148750K .......... .......... .......... .......... .......... 14% 28.5K 7h47m
+148800K .......... .......... .......... .......... .......... 14% 30.2K 7h47m
+148850K .......... .......... .......... .......... .......... 14% 23.0K 7h48m
+148900K .......... .......... .......... .......... .......... 14% 23.2K 7h48m
+148950K .......... .......... .......... .......... .......... 14% 16.7K 7h50m
+149000K .......... .......... .......... .......... .......... 14% 22.2K 7h50m
+149050K .......... .......... .......... .......... .......... 14% 21.3K 7h51m
+149100K .......... .......... .......... .......... .......... 14% 28.8K 7h51m
+149150K .......... .......... .......... .......... .......... 14% 32.3K 7h51m
+149200K .......... .......... .......... .......... .......... 14% 33.1K 7h51m
+149250K .......... .......... .......... .......... .......... 14% 24.4K 7h51m
+149300K .......... .......... .......... .......... .......... 14% 43.7K 7h50m
+149350K .......... .......... .......... .......... .......... 14% 30.3K 7h50m
+149400K .......... .......... .......... .......... .......... 14% 34.9K 7h50m
+149450K .......... .......... .......... .......... .......... 14% 33.2K 7h50m
+149500K .......... .......... .......... .......... .......... 14% 30.8K 7h50m
+149550K .......... .......... .......... .......... .......... 14% 25.6K 7h50m
+149600K .......... .......... .......... .......... .......... 14% 22.1K 7h51m
+149650K .......... .......... .......... .......... .......... 14% 20.7K 7h52m
+149700K .......... .......... .......... .......... .......... 14% 29.1K 7h52m
+149750K .......... .......... .......... .......... .......... 14% 21.3K 7h52m
+149800K .......... .......... .......... .......... .......... 14% 18.4K 7h53m
+149850K .......... .......... .......... .......... .......... 14% 25.0K 7h53m
+149900K .......... .......... .......... .......... .......... 14% 20.1K 7h54m
+149950K .......... .......... .......... .......... .......... 14% 30.6K 7h54m
+150000K .......... .......... .......... .......... .......... 14% 23.3K 7h54m
+150050K .......... .......... .......... .......... .......... 14% 20.1K 7h55m
+150100K .......... .......... .......... .......... .......... 14% 20.0K 7h56m
+150150K .......... .......... .......... .......... .......... 14% 27.0K 7h56m
+150200K .......... .......... .......... .......... .......... 14% 30.1K 7h56m
+150250K .......... .......... .......... .......... .......... 14% 24.6K 7h56m
+150300K .......... .......... .......... .......... .......... 14% 20.0K 7h57m
+150350K .......... .......... .......... .......... .......... 14% 46.4K 7h57m
+150400K .......... .......... .......... .......... .......... 14% 28.2K 7h57m
+150450K .......... .......... .......... .......... .......... 14% 29.2K 7h57m
+150500K .......... .......... .......... .......... .......... 14% 26.8K 7h57m
+150550K .......... .......... .......... .......... .......... 14% 32.5K 7h57m
+150600K .......... .......... .......... .......... .......... 14% 38.7K 7h56m
+150650K .......... .......... .......... .......... .......... 14% 33.9K 7h56m
+150700K .......... .......... .......... .......... .......... 14% 33.6K 7h56m
+150750K .......... .......... .......... .......... .......... 14% 33.9K 7h56m
+150800K .......... .......... .......... .......... .......... 14% 18.8K 7h57m
+150850K .......... .......... .......... .......... .......... 14% 46.2K 7h56m
+150900K .......... .......... .......... .......... .......... 14% 41.5K 7h56m
+150950K .......... .......... .......... .......... .......... 14% 37.0K 7h55m
+151000K .......... .......... .......... .......... .......... 14% 37.3K 7h55m
+151050K .......... .......... .......... .......... .......... 14% 40.5K 7h55m
+151100K .......... .......... .......... .......... .......... 14% 35.6K 7h54m
+151150K .......... .......... .......... .......... .......... 14% 48.6K 7h54m
+151200K .......... .......... .......... .......... .......... 14% 31.8K 7h54m
+151250K .......... .......... .......... .......... .......... 14% 29.9K 7h54m
+151300K .......... .......... .......... .......... .......... 14% 22.9K 7h54m
+151350K .......... .......... .......... .......... .......... 14% 16.2K 7h55m
+151400K .......... .......... .......... .......... .......... 14% 31.8K 7h55m
+151450K .......... .......... .......... .......... .......... 14% 28.9K 7h55m
+151500K .......... .......... .......... .......... .......... 14% 28.1K 7h55m
+151550K .......... .......... .......... .......... .......... 14% 30.2K 7h55m
+151600K .......... .......... .......... .......... .......... 15% 31.3K 7h55m
+151650K .......... .......... .......... .......... .......... 15% 23.1K 7h56m
+151700K .......... .......... .......... .......... .......... 15% 26.8K 7h56m
+151750K .......... .......... .......... .......... .......... 15% 25.7K 7h56m
+151800K .......... .......... .......... .......... .......... 15% 21.6K 7h56m
+151850K .......... .......... .......... .......... .......... 15% 25.6K 7h57m
+151900K .......... .......... .......... .......... .......... 15% 27.7K 7h57m
+151950K .......... .......... .......... .......... .......... 15% 23.0K 7h57m
+152000K .......... .......... .......... .......... .......... 15% 25.3K 7h57m
+152050K .......... .......... .......... .......... .......... 15% 30.7K 7h57m
+152100K .......... .......... .......... .......... .......... 15% 31.8K 7h57m
+152150K .......... .......... .......... .......... .......... 15% 31.3K 7h57m
+152200K .......... .......... .......... .......... .......... 15% 29.6K 7h57m
+152250K .......... .......... .......... .......... .......... 15% 20.6K 7h58m
+152300K .......... .......... .......... .......... .......... 15% 23.8K 7h58m
+152350K .......... .......... .......... .......... .......... 15% 22.0K 7h58m
+152400K .......... .......... .......... .......... .......... 15% 29.5K 7h58m
+152450K .......... .......... .......... .......... .......... 15% 36.8K 7h58m
+152500K .......... .......... .......... .......... .......... 15% 31.8K 7h58m
+152550K .......... .......... .......... .......... .......... 15% 38.7K 7h58m
+152600K .......... .......... .......... .......... .......... 15% 32.7K 7h57m
+152650K .......... .......... .......... .......... .......... 15% 56.2K 7h57m
+152700K .......... .......... .......... .......... .......... 15% 41.0K 7h56m
+152750K .......... .......... .......... .......... .......... 15% 34.3K 7h56m
+152800K .......... .......... .......... .......... .......... 15% 31.3K 7h56m
+152850K .......... .......... .......... .......... .......... 15% 28.3K 7h56m
+152900K .......... .......... .......... .......... .......... 15% 26.8K 7h56m
+152950K .......... .......... .......... .......... .......... 15% 26.3K 7h57m
+153000K .......... .......... .......... .......... .......... 15% 34.7K 7h56m
+153050K .......... .......... .......... .......... .......... 15% 31.3K 7h56m
+153100K .......... .......... .......... .......... .......... 15% 28.0K 7h56m
+153150K .......... .......... .......... .......... .......... 15% 20.1K 7h57m
+153200K .......... .......... .......... .......... .......... 15% 23.6K 7h57m
+153250K .......... .......... .......... .......... .......... 15% 22.9K 7h58m
+153300K .......... .......... .......... .......... .......... 15% 19.2K 7h58m
+153350K .......... .......... .......... .......... .......... 15% 27.2K 7h58m
+153400K .......... .......... .......... .......... .......... 15% 24.4K 7h59m
+153450K .......... .......... .......... .......... .......... 15% 28.9K 7h59m
+153500K .......... .......... .......... .......... .......... 15% 30.2K 7h59m
+153550K .......... .......... .......... .......... .......... 15% 26.6K 7h59m
+153600K .......... .......... .......... .......... .......... 15% 26.7K 7h59m
+153650K .......... .......... .......... .......... .......... 15% 29.3K 7h59m
+153700K .......... .......... .......... .......... .......... 15% 27.8K 7h59m
+153750K .......... .......... .......... .......... .......... 15% 42.6K 7h58m
+153800K .......... .......... .......... .......... .......... 15% 32.9K 7h58m
+153850K .......... .......... .......... .......... .......... 15% 30.8K 7h58m
+153900K .......... .......... .......... .......... .......... 15% 21.6K 7h59m
+153950K .......... .......... .......... .......... .......... 15% 30.6K 7h59m
+154000K .......... .......... .......... .......... .......... 15% 39.3K 7h58m
+154050K .......... .......... .......... .......... .......... 15% 34.0K 7h58m
+154100K .......... .......... .......... .......... .......... 15% 31.3K 7h58m
+154150K .......... .......... .......... .......... .......... 15% 37.9K 7h58m
+154200K .......... .......... .......... .......... .......... 15% 36.2K 7h58m
+154250K .......... .......... .......... .......... .......... 15% 35.7K 7h57m
+154300K .......... .......... .......... .......... .......... 15% 29.8K 7h57m
+154350K .......... .......... .......... .......... .......... 15% 25.8K 7h57m
+154400K .......... .......... .......... .......... .......... 15% 26.4K 7h58m
+154450K .......... .......... .......... .......... .......... 15% 30.3K 7h58m
+154500K .......... .......... .......... .......... .......... 15% 17.8K 7h58m
+154550K .......... .......... .......... .......... .......... 15% 31.4K 7h58m
+154600K .......... .......... .......... .......... .......... 15% 32.8K 7h58m
+154650K .......... .......... .......... .......... .......... 15% 24.3K 7h58m
+154700K .......... .......... .......... .......... .......... 15% 28.0K 7h58m
+154750K .......... .......... .......... .......... .......... 15% 18.9K 7h59m
+154800K .......... .......... .......... .......... .......... 15% 20.3K 7h59m
+154850K .......... .......... .......... .......... .......... 15% 27.0K 8h0m
+154900K .......... .......... .......... .......... .......... 15% 20.5K 8h0m
+154950K .......... .......... .......... .......... .......... 15% 23.9K 8h0m
+155000K .......... .......... .......... .......... .......... 15% 16.3K 8h1m
+155050K .......... .......... .......... .......... .......... 15% 21.4K 8h2m
+155100K .......... .......... .......... .......... .......... 15% 28.7K 8h2m
+155150K .......... .......... .......... .......... .......... 15% 21.7K 8h2m
+155200K .......... .......... .......... .......... .......... 15% 25.8K 8h2m
+155250K .......... .......... .......... .......... .......... 15% 22.5K 8h2m
+155300K .......... .......... .......... .......... .......... 15% 28.1K 8h2m
+155350K .......... .......... .......... .......... .......... 15% 24.8K 8h3m
+155400K .......... .......... .......... .......... .......... 15% 36.9K 8h2m
+155450K .......... .......... .......... .......... .......... 15% 26.2K 8h3m
+155500K .......... .......... .......... .......... .......... 15% 24.3K 8h3m
+155550K .......... .......... .......... .......... .......... 15% 26.4K 8h3m
+155600K .......... .......... .......... .......... .......... 15% 33.5K 8h3m
+155650K .......... .......... .......... .......... .......... 15% 30.9K 8h3m
+155700K .......... .......... .......... .......... .......... 15% 34.4K 8h2m
+155750K .......... .......... .......... .......... .......... 15% 25.8K 8h3m
+155800K .......... .......... .......... .......... .......... 15% 82.9K 8h2m
+155850K .......... .......... .......... .......... .......... 15% 36.8K 8h2m
+155900K .......... .......... .......... .......... .......... 15% 33.2K 8h1m
+155950K .......... .......... .......... .......... .......... 15% 31.3K 8h1m
+156000K .......... .......... .......... .......... .......... 15% 25.9K 8h1m
+156050K .......... .......... .......... .......... .......... 15% 32.5K 8h1m
+156100K .......... .......... .......... .......... .......... 15% 29.6K 8h1m
+156150K .......... .......... .......... .......... .......... 15% 17.8K 8h2m
+156200K .......... .......... .......... .......... .......... 15% 31.8K 8h2m
+156250K .......... .......... .......... .......... .......... 15% 18.5K 8h2m
+156300K .......... .......... .......... .......... .......... 15% 28.8K 8h2m
+156350K .......... .......... .......... .......... .......... 15% 30.5K 8h2m
+156400K .......... .......... .......... .......... .......... 15% 26.1K 8h3m
+156450K .......... .......... .......... .......... .......... 15% 26.2K 8h3m
+156500K .......... .......... .......... .......... .......... 15% 32.7K 8h3m
+156550K .......... .......... .......... .......... .......... 15% 39.0K 8h2m
+156600K .......... .......... .......... .......... .......... 15% 46.6K 8h2m
+156650K .......... .......... .......... .......... .......... 15% 33.2K 8h2m
+156700K .......... .......... .......... .......... .......... 15% 31.2K 8h2m
+156750K .......... .......... .......... .......... .......... 15% 32.4K 8h1m
+156800K .......... .......... .......... .......... .......... 15% 30.8K 8h1m
+156850K .......... .......... .......... .......... .......... 15% 31.9K 8h1m
+156900K .......... .......... .......... .......... .......... 15% 32.6K 8h1m
+156950K .......... .......... .......... .......... .......... 15% 26.7K 8h1m
+157000K .......... .......... .......... .......... .......... 15% 43.7K 8h1m
+157050K .......... .......... .......... .......... .......... 15% 36.8K 8h1m
+157100K .......... .......... .......... .......... .......... 15% 29.1K 8h1m
+157150K .......... .......... .......... .......... .......... 15% 36.4K 8h0m
+157200K .......... .......... .......... .......... .......... 15% 34.3K 8h0m
+157250K .......... .......... .......... .......... .......... 15% 30.1K 8h0m
+157300K .......... .......... .......... .......... .......... 15% 36.4K 8h0m
+157350K .......... .......... .......... .......... .......... 15% 34.4K 8h0m
+157400K .......... .......... .......... .......... .......... 15% 30.8K 8h0m
+157450K .......... .......... .......... .......... .......... 15% 29.4K 8h0m
+157500K .......... .......... .......... .......... .......... 15% 23.9K 8h0m
+157550K .......... .......... .......... .......... .......... 15% 21.5K 8h0m
+157600K .......... .......... .......... .......... .......... 15% 20.5K 8h1m
+157650K .......... .......... .......... .......... .......... 15% 26.8K 8h1m
+157700K .......... .......... .......... .......... .......... 15% 14.1K 8h2m
+157750K .......... .......... .......... .......... .......... 15% 24.7K 8h2m
+157800K .......... .......... .......... .......... .......... 15% 19.4K 8h3m
+157850K .......... .......... .......... .......... .......... 15% 13.3K 8h4m
+157900K .......... .......... .......... .......... .......... 15% 24.0K 8h4m
+157950K .......... .......... .......... .......... .......... 15% 25.9K 8h4m
+158000K .......... .......... .......... .......... .......... 15% 23.1K 8h4m
+158050K .......... .......... .......... .......... .......... 15% 35.2K 8h4m
+158100K .......... .......... .......... .......... .......... 15% 29.7K 8h4m
+158150K .......... .......... .......... .......... .......... 15% 26.9K 8h4m
+158200K .......... .......... .......... .......... .......... 15% 22.4K 8h4m
+158250K .......... .......... .......... .......... .......... 15% 58.6K 8h4m
+158300K .......... .......... .......... .......... .......... 15% 36.0K 8h4m
+158350K .......... .......... .......... .......... .......... 15% 45.9K 8h3m
+158400K .......... .......... .......... .......... .......... 15% 45.0K 8h3m
+158450K .......... .......... .......... .......... .......... 15% 40.2K 8h3m
+158500K .......... .......... .......... .......... .......... 15% 40.3K 8h2m
+158550K .......... .......... .......... .......... .......... 15% 29.2K 8h2m
+158600K .......... .......... .......... .......... .......... 15% 25.2K 8h2m
+158650K .......... .......... .......... .......... .......... 15% 15.3K 8h3m
+158700K .......... .......... .......... .......... .......... 15% 29.9K 8h3m
+158750K .......... .......... .......... .......... .......... 15% 24.9K 8h3m
+158800K .......... .......... .......... .......... .......... 15% 22.6K 8h4m
+158850K .......... .......... .......... .......... .......... 15% 25.0K 8h4m
+158900K .......... .......... .......... .......... .......... 15% 30.8K 8h4m
+158950K .......... .......... .......... .......... .......... 15% 37.7K 8h3m
+159000K .......... .......... .......... .......... .......... 15% 36.6K 8h3m
+159050K .......... .......... .......... .......... .......... 15% 27.9K 8h3m
+159100K .......... .......... .......... .......... .......... 15% 53.2K 8h3m
+159150K .......... .......... .......... .......... .......... 15% 35.1K 8h3m
+159200K .......... .......... .......... .......... .......... 15% 32.1K 8h2m
+159250K .......... .......... .......... .......... .......... 15% 18.7K 8h3m
+159300K .......... .......... .......... .......... .......... 15% 64.4K 8h2m
+159350K .......... .......... .......... .......... .......... 15% 31.0K 8h2m
+159400K .......... .......... .......... .......... .......... 15% 31.2K 8h2m
+159450K .......... .......... .......... .......... .......... 15% 27.5K 8h2m
+159500K .......... .......... .......... .......... .......... 15% 31.8K 8h2m
+159550K .......... .......... .......... .......... .......... 15% 24.5K 8h2m
+159600K .......... .......... .......... .......... .......... 15% 30.4K 8h2m
+159650K .......... .......... .......... .......... .......... 15% 29.0K 8h2m
+159700K .......... .......... .......... .......... .......... 15% 21.3K 8h3m
+159750K .......... .......... .......... .......... .......... 15% 55.1K 8h2m
+159800K .......... .......... .......... .......... .......... 15% 40.2K 8h2m
+159850K .......... .......... .......... .......... .......... 15% 27.1K 8h2m
+159900K .......... .......... .......... .......... .......... 15% 26.0K 8h2m
+159950K .......... .......... .......... .......... .......... 15% 21.1K 8h2m
+160000K .......... .......... .......... .......... .......... 15% 26.3K 8h2m
+160050K .......... .......... .......... .......... .......... 15% 25.3K 8h3m
+160100K .......... .......... .......... .......... .......... 15% 27.3K 8h3m
+160150K .......... .......... .......... .......... .......... 15% 31.1K 8h3m
+160200K .......... .......... .......... .......... .......... 15% 29.3K 8h3m
+160250K .......... .......... .......... .......... .......... 15% 33.7K 8h2m
+160300K .......... .......... .......... .......... .......... 15% 29.6K 8h2m
+160350K .......... .......... .......... .......... .......... 15% 28.6K 8h2m
+160400K .......... .......... .......... .......... .......... 15% 34.6K 8h2m
+160450K .......... .......... .......... .......... .......... 15% 38.3K 8h2m
+160500K .......... .......... .......... .......... .......... 15% 31.1K 8h2m
+160550K .......... .......... .......... .......... .......... 15% 42.4K 8h2m
+160600K .......... .......... .......... .......... .......... 15% 28.5K 8h2m
+160650K .......... .......... .......... .......... .......... 15% 24.8K 8h2m
+160700K .......... .......... .......... .......... .......... 15% 29.3K 8h2m
+160750K .......... .......... .......... .......... .......... 15% 31.9K 8h2m
+160800K .......... .......... .......... .......... .......... 15% 30.3K 8h1m
+160850K .......... .......... .......... .......... .......... 15% 32.9K 8h1m
+160900K .......... .......... .......... .......... .......... 15% 35.9K 8h1m
+160950K .......... .......... .......... .......... .......... 15% 35.0K 8h1m
+161000K .......... .......... .......... .......... .......... 15% 31.3K 8h1m
+161050K .......... .......... .......... .......... .......... 15% 32.4K 8h1m
+161100K .......... .......... .......... .......... .......... 15% 23.8K 8h1m
+161150K .......... .......... .......... .......... .......... 15% 39.5K 8h1m
+161200K .......... .......... .......... .......... .......... 15% 24.3K 8h1m
+161250K .......... .......... .......... .......... .......... 15% 23.7K 8h1m
+161300K .......... .......... .......... .......... .......... 15% 22.7K 8h1m
+161350K .......... .......... .......... .......... .......... 15% 16.8K 8h2m
+161400K .......... .......... .......... .......... .......... 15% 27.1K 8h2m
+161450K .......... .......... .......... .......... .......... 15% 27.3K 8h2m
+161500K .......... .......... .......... .......... .......... 15% 34.5K 8h2m
+161550K .......... .......... .......... .......... .......... 15% 32.3K 8h2m
+161600K .......... .......... .......... .......... .......... 15% 40.0K 8h2m
+161650K .......... .......... .......... .......... .......... 15% 26.9K 8h2m
+161700K .......... .......... .......... .......... .......... 15% 28.9K 8h2m
+161750K .......... .......... .......... .......... .......... 16% 29.8K 8h2m
+161800K .......... .......... .......... .......... .......... 16% 32.1K 8h1m
+161850K .......... .......... .......... .......... .......... 16% 25.2K 8h2m
+161900K .......... .......... .......... .......... .......... 16% 38.7K 8h1m
+161950K .......... .......... .......... .......... .......... 16% 25.1K 8h1m
+162000K .......... .......... .......... .......... .......... 16% 25.7K 8h1m
+162050K .......... .......... .......... .......... .......... 16% 29.9K 8h1m
+162100K .......... .......... .......... .......... .......... 16% 47.5K 8h1m
+162150K .......... .......... .......... .......... .......... 16% 44.1K 8h1m
+162200K .......... .......... .......... .......... .......... 16% 37.7K 8h1m
+162250K .......... .......... .......... .......... .......... 16% 44.1K 8h0m
+162300K .......... .......... .......... .......... .......... 16% 35.8K 8h0m
+162350K .......... .......... .......... .......... .......... 16% 46.7K 8h0m
+162400K .......... .......... .......... .......... .......... 16% 39.4K 7h59m
+162450K .......... .......... .......... .......... .......... 16% 40.4K 7h59m
+162500K .......... .......... .......... .......... .......... 16% 37.9K 7h59m
+162550K .......... .......... .......... .......... .......... 16% 29.4K 7h59m
+162600K .......... .......... .......... .......... .......... 16% 63.8K 7h59m
+162650K .......... .......... .......... .......... .......... 16% 28.1K 7h59m
+162700K .......... .......... .......... .......... .......... 16% 33.1K 7h58m
+162750K .......... .......... .......... .......... .......... 16% 29.6K 7h58m
+162800K .......... .......... .......... .......... .......... 16% 34.0K 7h58m
+162850K .......... .......... .......... .......... .......... 16% 33.0K 7h58m
+162900K .......... .......... .......... .......... .......... 16% 56.7K 7h58m
+162950K .......... .......... .......... .......... .......... 16% 33.1K 7h58m
+163000K .......... .......... .......... .......... .......... 16% 29.5K 7h58m
+163050K .......... .......... .......... .......... .......... 16% 34.9K 7h57m
+163100K .......... .......... .......... .......... .......... 16% 31.2K 7h57m
+163150K .......... .......... .......... .......... .......... 16% 29.8K 7h57m
+163200K .......... .......... .......... .......... .......... 16% 25.9K 7h57m
+163250K .......... .......... .......... .......... .......... 16% 31.0K 7h57m
+163300K .......... .......... .......... .......... .......... 16% 27.8K 7h57m
+163350K .......... .......... .......... .......... .......... 16% 29.1K 7h57m
+163400K .......... .......... .......... .......... .......... 16% 30.3K 7h57m
+163450K .......... .......... .......... .......... .......... 16% 28.1K 7h57m
+163500K .......... .......... .......... .......... .......... 16% 25.2K 7h57m
+163550K .......... .......... .......... .......... .......... 16% 24.7K 7h58m
+163600K .......... .......... .......... .......... .......... 16% 22.9K 7h58m
+163650K .......... .......... .......... .......... .......... 16% 33.0K 7h58m
+163700K .......... .......... .......... .......... .......... 16% 21.9K 7h58m
+163750K .......... .......... .......... .......... .......... 16% 25.9K 7h58m
+163800K .......... .......... .......... .......... .......... 16% 35.5K 7h58m
+163850K .......... .......... .......... .......... .......... 16% 42.8K 7h58m
+163900K .......... .......... .......... .......... .......... 16% 39.7K 7h57m
+163950K .......... .......... .......... .......... .......... 16% 44.1K 7h57m
+164000K .......... .......... .......... .......... .......... 16% 45.8K 7h57m
+164050K .......... .......... .......... .......... .......... 16% 32.6K 7h57m
+164100K .......... .......... .......... .......... .......... 16% 39.5K 7h56m
+164150K .......... .......... .......... .......... .......... 16% 38.3K 7h56m
+164200K .......... .......... .......... .......... .......... 16% 44.5K 7h56m
+164250K .......... .......... .......... .......... .......... 16% 36.4K 7h56m
+164300K .......... .......... .......... .......... .......... 16% 29.4K 7h56m
+164350K .......... .......... .......... .......... .......... 16% 21.4K 7h56m
+164400K .......... .......... .......... .......... .......... 16% 24.6K 7h56m
+164450K .......... .......... .......... .......... .......... 16% 31.3K 7h56m
+164500K .......... .......... .......... .......... .......... 16% 30.4K 7h56m
+164550K .......... .......... .......... .......... .......... 16% 37.7K 7h56m
+164600K .......... .......... .......... .......... .......... 16% 36.4K 7h56m
+164650K .......... .......... .......... .......... .......... 16% 40.4K 7h55m
+164700K .......... .......... .......... .......... .......... 16% 38.0K 7h55m
+164750K .......... .......... .......... .......... .......... 16% 31.9K 7h55m
+164800K .......... .......... .......... .......... .......... 16% 26.5K 7h55m
+164850K .......... .......... .......... .......... .......... 16% 34.1K 7h55m
+164900K .......... .......... .......... .......... .......... 16% 29.3K 7h55m
+164950K .......... .......... .......... .......... .......... 16% 30.9K 7h55m
+165000K .......... .......... .......... .......... .......... 16% 36.2K 7h55m
+165050K .......... .......... .......... .......... .......... 16% 33.0K 7h55m
+165100K .......... .......... .......... .......... .......... 16% 30.9K 7h55m
+165150K .......... .......... .......... .......... .......... 16% 28.1K 7h55m
+165200K .......... .......... .......... .......... .......... 16% 31.1K 7h55m
+165250K .......... .......... .......... .......... .......... 16% 31.7K 7h54m
+165300K .......... .......... .......... .......... .......... 16% 37.1K 7h54m
+165350K .......... .......... .......... .......... .......... 16% 32.4K 7h54m
+165400K .......... .......... .......... .......... .......... 16% 43.2K 7h54m
+165450K .......... .......... .......... .......... .......... 16% 43.1K 7h54m
+165500K .......... .......... .......... .......... .......... 16% 41.7K 7h53m
+165550K .......... .......... .......... .......... .......... 16% 43.9K 7h53m
+165600K .......... .......... .......... .......... .......... 16% 25.7K 7h53m
+165650K .......... .......... .......... .......... .......... 16% 75.9K 7h53m
+165700K .......... .......... .......... .......... .......... 16% 44.3K 7h53m
+165750K .......... .......... .......... .......... .......... 16% 33.1K 7h52m
+165800K .......... .......... .......... .......... .......... 16% 31.6K 7h52m
+165850K .......... .......... .......... .......... .......... 16% 19.1K 7h53m
+165900K .......... .......... .......... .......... .......... 16% 75.4K 7h52m
+165950K .......... .......... .......... .......... .......... 16% 33.4K 7h52m
+166000K .......... .......... .......... .......... .......... 16% 31.4K 7h52m
+166050K .......... .......... .......... .......... .......... 16% 39.5K 7h52m
+166100K .......... .......... .......... .......... .......... 16% 38.2K 7h52m
+166150K .......... .......... .......... .......... .......... 16% 33.9K 7h52m
+166200K .......... .......... .......... .......... .......... 16% 54.2K 7h51m
+166250K .......... .......... .......... .......... .......... 16% 57.5K 7h51m
+166300K .......... .......... .......... .......... .......... 16% 42.6K 7h51m
+166350K .......... .......... .......... .......... .......... 16% 43.6K 7h50m
+166400K .......... .......... .......... .......... .......... 16% 31.0K 7h50m
+166450K .......... .......... .......... .......... .......... 16% 29.2K 7h50m
+166500K .......... .......... .......... .......... .......... 16% 22.0K 7h50m
+166550K .......... .......... .......... .......... .......... 16% 38.0K 7h50m
+166600K .......... .......... .......... .......... .......... 16% 33.2K 7h50m
+166650K .......... .......... .......... .......... .......... 16% 35.3K 7h50m
+166700K .......... .......... .......... .......... .......... 16% 34.5K 7h50m
+166750K .......... .......... .......... .......... .......... 16% 25.5K 7h50m
+166800K .......... .......... .......... .......... .......... 16% 29.1K 7h50m
+166850K .......... .......... .......... .......... .......... 16% 28.7K 7h50m
+166900K .......... .......... .......... .......... .......... 16% 25.1K 7h50m
+166950K .......... .......... .......... .......... .......... 16% 36.7K 7h50m
+167000K .......... .......... .......... .......... .......... 16% 26.2K 7h50m
+167050K .......... .......... .......... .......... .......... 16% 28.5K 7h50m
+167100K .......... .......... .......... .......... .......... 16% 32.0K 7h50m
+167150K .......... .......... .......... .......... .......... 16% 31.8K 7h50m
+167200K .......... .......... .......... .......... .......... 16% 30.1K 7h50m
+167250K .......... .......... .......... .......... .......... 16% 37.1K 7h50m
+167300K .......... .......... .......... .......... .......... 16% 30.6K 7h50m
+167350K .......... .......... .......... .......... .......... 16% 23.1K 7h50m
+167400K .......... .......... .......... .......... .......... 16% 31.4K 7h50m
+167450K .......... .......... .......... .......... .......... 16% 33.1K 7h50m
+167500K .......... .......... .......... .......... .......... 16% 33.4K 7h50m
+167550K .......... .......... .......... .......... .......... 16% 43.2K 7h49m
+167600K .......... .......... .......... .......... .......... 16% 30.3K 7h49m
+167650K .......... .......... .......... .......... .......... 16% 42.1K 7h49m
+167700K .......... .......... .......... .......... .......... 16% 34.1K 7h49m
+167750K .......... .......... .......... .......... .......... 16% 23.5K 7h49m
+167800K .......... .......... .......... .......... .......... 16% 22.9K 7h49m
+167850K .......... .......... .......... .......... .......... 16% 28.1K 7h49m
+167900K .......... .......... .......... .......... .......... 16% 25.3K 7h49m
+167950K .......... .......... .......... .......... .......... 16% 29.2K 7h49m
+168000K .......... .......... .......... .......... .......... 16% 31.1K 7h49m
+168050K .......... .......... .......... .......... .......... 16% 32.5K 7h49m
+168100K .......... .......... .......... .......... .......... 16% 31.0K 7h49m
+168150K .......... .......... .......... .......... .......... 16% 32.6K 7h49m
+168200K .......... .......... .......... .......... .......... 16% 29.8K 7h49m
+168250K .......... .......... .......... .......... .......... 16% 27.0K 7h49m
+168300K .......... .......... .......... .......... .......... 16% 35.0K 7h49m
+168350K .......... .......... .......... .......... .......... 16% 43.8K 7h49m
+168400K .......... .......... .......... .......... .......... 16% 35.0K 7h49m
+168450K .......... .......... .......... .......... .......... 16% 33.1K 7h49m
+168500K .......... .......... .......... .......... .......... 16% 30.6K 7h49m
+168550K .......... .......... .......... .......... .......... 16% 33.2K 7h48m
+168600K .......... .......... .......... .......... .......... 16% 33.8K 7h48m
+168650K .......... .......... .......... .......... .......... 16% 34.6K 7h48m
+168700K .......... .......... .......... .......... .......... 16% 51.2K 7h48m
+168750K .......... .......... .......... .......... .......... 16% 41.8K 7h48m
+168800K .......... .......... .......... .......... .......... 16% 45.5K 7h47m
+168850K .......... .......... .......... .......... .......... 16% 42.3K 7h47m
+168900K .......... .......... .......... .......... .......... 16% 32.3K 7h47m
+168950K .......... .......... .......... .......... .......... 16% 62.1K 7h47m
+169000K .......... .......... .......... .......... .......... 16% 42.5K 7h47m
+169050K .......... .......... .......... .......... .......... 16% 33.4K 7h46m
+169100K .......... .......... .......... .......... .......... 16% 37.4K 7h46m
+169150K .......... .......... .......... .......... .......... 16% 36.0K 7h46m
+169200K .......... .......... .......... .......... .......... 16% 24.1K 7h46m
+169250K .......... .......... .......... .......... .......... 16% 62.2K 7h46m
+169300K .......... .......... .......... .......... .......... 16% 31.6K 7h46m
+169350K .......... .......... .......... .......... .......... 16% 30.7K 7h46m
+169400K .......... .......... .......... .......... .......... 16% 29.5K 7h46m
+169450K .......... .......... .......... .......... .......... 16% 29.0K 7h46m
+169500K .......... .......... .......... .......... .......... 16% 37.4K 7h46m
+169550K .......... .......... .......... .......... .......... 16% 39.3K 7h45m
+169600K .......... .......... .......... .......... .......... 16% 35.8K 7h45m
+169650K .......... .......... .......... .......... .......... 16% 35.9K 7h45m
+169700K .......... .......... .......... .......... .......... 16% 23.8K 7h45m
+169750K .......... .......... .......... .......... .......... 16% 22.6K 7h46m
+169800K .......... .......... .......... .......... .......... 16% 28.1K 7h46m
+169850K .......... .......... .......... .......... .......... 16% 32.0K 7h45m
+169900K .......... .......... .......... .......... .......... 16% 30.0K 7h45m
+169950K .......... .......... .......... .......... .......... 16% 30.4K 7h45m
+170000K .......... .......... .......... .......... .......... 16% 28.3K 7h45m
+170050K .......... .......... .......... .......... .......... 16% 34.9K 7h45m
+170100K .......... .......... .......... .......... .......... 16% 30.0K 7h45m
+170150K .......... .......... .......... .......... .......... 16% 30.0K 7h45m
+170200K .......... .......... .......... .......... .......... 16% 28.4K 7h45m
+170250K .......... .......... .......... .......... .......... 16% 28.0K 7h45m
+170300K .......... .......... .......... .......... .......... 16% 21.6K 7h46m
+170350K .......... .......... .......... .......... .......... 16% 19.8K 7h46m
+170400K .......... .......... .......... .......... .......... 16% 26.0K 7h46m
+170450K .......... .......... .......... .......... .......... 16% 25.4K 7h46m
+170500K .......... .......... .......... .......... .......... 16% 29.7K 7h46m
+170550K .......... .......... .......... .......... .......... 16% 30.8K 7h46m
+170600K .......... .......... .......... .......... .......... 16% 37.0K 7h46m
+170650K .......... .......... .......... .......... .......... 16% 31.3K 7h46m
+170700K .......... .......... .......... .......... .......... 16% 41.9K 7h46m
+170750K .......... .......... .......... .......... .......... 16% 34.1K 7h45m
+170800K .......... .......... .......... .......... .......... 16% 31.6K 7h45m
+170850K .......... .......... .......... .......... .......... 16% 36.7K 7h45m
+170900K .......... .......... .......... .......... .......... 16% 30.2K 7h45m
+170950K .......... .......... .......... .......... .......... 16% 27.6K 7h45m
+171000K .......... .......... .......... .......... .......... 16% 29.1K 7h45m
+171050K .......... .......... .......... .......... .......... 16% 17.1K 7h46m
+171100K .......... .......... .......... .......... .......... 16% 15.9K 7h46m
+171150K .......... .......... .......... .......... .......... 16% 23.3K 7h46m
+171200K .......... .......... .......... .......... .......... 16% 27.0K 7h46m
+171250K .......... .......... .......... .......... .......... 16% 27.8K 7h46m
+171300K .......... .......... .......... .......... .......... 16% 32.0K 7h46m
+171350K .......... .......... .......... .......... .......... 16% 37.2K 7h46m
+171400K .......... .......... .......... .......... .......... 16% 41.3K 7h46m
+171450K .......... .......... .......... .......... .......... 16% 31.4K 7h46m
+171500K .......... .......... .......... .......... .......... 16% 22.1K 7h46m
+171550K .......... .......... .......... .......... .......... 16% 38.7K 7h46m
+171600K .......... .......... .......... .......... .......... 16% 24.5K 7h46m
+171650K .......... .......... .......... .......... .......... 16% 26.3K 7h46m
+171700K .......... .......... .......... .......... .......... 16% 27.6K 7h46m
+171750K .......... .......... .......... .......... .......... 16% 40.4K 7h46m
+171800K .......... .......... .......... .......... .......... 16% 35.7K 7h46m
+171850K .......... .......... .......... .......... .......... 17% 41.0K 7h46m
+171900K .......... .......... .......... .......... .......... 17% 38.1K 7h45m
+171950K .......... .......... .......... .......... .......... 17% 37.7K 7h45m
+172000K .......... .......... .......... .......... .......... 17% 40.7K 7h45m
+172050K .......... .......... .......... .......... .......... 17% 36.4K 7h45m
+172100K .......... .......... .......... .......... .......... 17% 44.1K 7h45m
+172150K .......... .......... .......... .......... .......... 17% 35.7K 7h45m
+172200K .......... .......... .......... .......... .......... 17% 35.6K 7h45m
+172250K .......... .......... .......... .......... .......... 17% 19.8K 7h45m
+172300K .......... .......... .......... .......... .......... 17% 23.8K 7h45m
+172350K .......... .......... .......... .......... .......... 17% 32.0K 7h45m
+172400K .......... .......... .......... .......... .......... 17% 31.3K 7h45m
+172450K .......... .......... .......... .......... .......... 17% 28.3K 7h45m
+172500K .......... .......... .......... .......... .......... 17% 29.9K 7h45m
+172550K .......... .......... .......... .......... .......... 17% 30.2K 7h45m
+172600K .......... .......... .......... .......... .......... 17% 27.9K 7h45m
+172650K .......... .......... .......... .......... .......... 17% 27.3K 7h45m
+172700K .......... .......... .......... .......... .......... 17% 32.3K 7h45m
+172750K .......... .......... .......... .......... .......... 17% 44.0K 7h45m
+172800K .......... .......... .......... .......... .......... 17% 39.1K 7h44m
+172850K .......... .......... .......... .......... .......... 17% 36.6K 7h44m
+172900K .......... .......... .......... .......... .......... 17% 27.2K 7h44m
+172950K .......... .......... .......... .......... .......... 17% 85.2K 7h44m
+173000K .......... .......... .......... .......... .......... 17% 44.1K 7h44m
+173050K .......... .......... .......... .......... .......... 17% 41.8K 7h43m
+173100K .......... .......... .......... .......... .......... 17% 42.0K 7h43m
+173150K .......... .......... .......... .......... .......... 17% 46.2K 7h43m
+173200K .......... .......... .......... .......... .......... 17% 35.3K 7h43m
+173250K .......... .......... .......... .......... .......... 17% 39.3K 7h43m
+173300K .......... .......... .......... .......... .......... 17% 33.7K 7h43m
+173350K .......... .......... .......... .......... .......... 17% 40.3K 7h42m
+173400K .......... .......... .......... .......... .......... 17% 27.8K 7h42m
+173450K .......... .......... .......... .......... .......... 17% 36.2K 7h42m
+173500K .......... .......... .......... .......... .......... 17% 18.2K 7h43m
+173550K .......... .......... .......... .......... .......... 17% 16.3K 7h43m
+173600K .......... .......... .......... .......... .......... 17% 19.5K 7h43m
+173650K .......... .......... .......... .......... .......... 17% 21.3K 7h44m
+173700K .......... .......... .......... .......... .......... 17% 18.0K 7h44m
+173750K .......... .......... .......... .......... .......... 17% 21.0K 7h44m
+173800K .......... .......... .......... .......... .......... 17% 23.8K 7h44m
+173850K .......... .......... .......... .......... .......... 17% 25.0K 7h45m
+173900K .......... .......... .......... .......... .......... 17% 27.9K 7h45m
+173950K .......... .......... .......... .......... .......... 17% 28.9K 7h45m
+174000K .......... .......... .......... .......... .......... 17% 31.1K 7h44m
+174050K .......... .......... .......... .......... .......... 17% 30.3K 7h44m
+174100K .......... .......... .......... .......... .......... 17% 20.1K 7h45m
+174150K .......... .......... .......... .......... .......... 17% 66.3K 7h44m
+174200K .......... .......... .......... .......... .......... 17% 46.7K 7h44m
+174250K .......... .......... .......... .......... .......... 17% 40.5K 7h44m
+174300K .......... .......... .......... .......... .......... 17% 38.0K 7h44m
+174350K .......... .......... .......... .......... .......... 17% 41.9K 7h44m
+174400K .......... .......... .......... .......... .......... 17% 34.1K 7h43m
+174450K .......... .......... .......... .......... .......... 17% 39.4K 7h43m
+174500K .......... .......... .......... .......... .......... 17% 38.4K 7h43m
+174550K .......... .......... .......... .......... .......... 17% 42.4K 7h43m
+174600K .......... .......... .......... .......... .......... 17% 44.5K 7h43m
+174650K .......... .......... .......... .......... .......... 17% 34.8K 7h43m
+174700K .......... .......... .......... .......... .......... 17% 67.2K 7h42m
+174750K .......... .......... .......... .......... .......... 17% 33.0K 7h42m
+174800K .......... .......... .......... .......... .......... 17% 38.5K 7h42m
+174850K .......... .......... .......... .......... .......... 17% 28.7K 7h42m
+174900K .......... .......... .......... .......... .......... 17% 20.6K 7h42m
+174950K .......... .......... .......... .......... .......... 17% 23.1K 7h42m
+175000K .......... .......... .......... .......... .......... 17% 25.0K 7h43m
+175050K .......... .......... .......... .......... .......... 17% 32.8K 7h42m
+175100K .......... .......... .......... .......... .......... 17% 26.6K 7h43m
+175150K .......... .......... .......... .......... .......... 17% 43.5K 7h42m
+175200K .......... .......... .......... .......... .......... 17% 27.4K 7h42m
+175250K .......... .......... .......... .......... .......... 17% 23.7K 7h42m
+175300K .......... .......... .......... .......... .......... 17% 23.5K 7h43m
+175350K .......... .......... .......... .......... .......... 17% 23.4K 7h43m
+175400K .......... .......... .......... .......... .......... 17% 23.2K 7h43m
+175450K .......... .......... .......... .......... .......... 17% 27.5K 7h43m
+175500K .......... .......... .......... .......... .......... 17% 36.7K 7h43m
+175550K .......... .......... .......... .......... .......... 17% 31.0K 7h43m
+175600K .......... .......... .......... .......... .......... 17% 28.9K 7h43m
+175650K .......... .......... .......... .......... .......... 17% 24.1K 7h43m
+175700K .......... .......... .......... .......... .......... 17% 64.6K 7h43m
+175750K .......... .......... .......... .......... .......... 17% 33.1K 7h42m
+175800K .......... .......... .......... .......... .......... 17% 33.8K 7h42m
+175850K .......... .......... .......... .......... .......... 17% 32.5K 7h42m
+175900K .......... .......... .......... .......... .......... 17% 23.7K 7h42m
+175950K .......... .......... .......... .......... .......... 17% 34.0K 7h42m
+176000K .......... .......... .......... .......... .......... 17% 26.6K 7h42m
+176050K .......... .......... .......... .......... .......... 17% 25.7K 7h42m
+176100K .......... .......... .......... .......... .......... 17% 24.3K 7h43m
+176150K .......... .......... .......... .......... .......... 17% 24.4K 7h43m
+176200K .......... .......... .......... .......... .......... 17% 32.8K 7h43m
+176250K .......... .......... .......... .......... .......... 17% 23.3K 7h43m
+176300K .......... .......... .......... .......... .......... 17% 41.6K 7h42m
+176350K .......... .......... .......... .......... .......... 17% 32.6K 7h42m
+176400K .......... .......... .......... .......... .......... 17% 32.7K 7h42m
+176450K .......... .......... .......... .......... .......... 17% 29.5K 7h42m
+176500K .......... .......... .......... .......... .......... 17% 31.5K 7h42m
+176550K .......... .......... .......... .......... .......... 17% 34.3K 7h42m
+176600K .......... .......... .......... .......... .......... 17% 21.8K 7h42m
+176650K .......... .......... .......... .......... .......... 17% 29.4K 7h42m
+176700K .......... .......... .......... .......... .......... 17% 31.3K 7h42m
+176750K .......... .......... .......... .......... .......... 17% 27.6K 7h42m
+176800K .......... .......... .......... .......... .......... 17% 40.6K 7h42m
+176850K .......... .......... .......... .......... .......... 17% 34.1K 7h42m
+176900K .......... .......... .......... .......... .......... 17% 32.6K 7h42m
+176950K .......... .......... .......... .......... .......... 17% 20.1K 7h42m
+177000K .......... .......... .......... .......... .......... 17% 40.7K 7h42m
+177050K .......... .......... .......... .......... .......... 17% 34.3K 7h42m
+177100K .......... .......... .......... .......... .......... 17% 24.4K 7h42m
+177150K .......... .......... .......... .......... .......... 17% 23.1K 7h42m
+177200K .......... .......... .......... .......... .......... 17% 25.8K 7h42m
+177250K .......... .......... .......... .......... .......... 17% 24.9K 7h42m
+177300K .......... .......... .......... .......... .......... 17% 24.5K 7h42m
+177350K .......... .......... .......... .......... .......... 17% 32.1K 7h42m
+177400K .......... .......... .......... .......... .......... 17% 31.9K 7h42m
+177450K .......... .......... .......... .......... .......... 17% 20.7K 7h43m
+177500K .......... .......... .......... .......... .......... 17% 31.0K 7h42m
+177550K .......... .......... .......... .......... .......... 17% 22.8K 7h43m
+177600K .......... .......... .......... .......... .......... 17% 21.6K 7h43m
+177650K .......... .......... .......... .......... .......... 17% 15.5K 7h43m
+177700K .......... .......... .......... .......... .......... 17% 15.8K 7h44m
+177750K .......... .......... .......... .......... .......... 17% 16.7K 7h44m
+177800K .......... .......... .......... .......... .......... 17% 26.3K 7h44m
+177850K .......... .......... .......... .......... .......... 17% 30.4K 7h44m
+177900K .......... .......... .......... .......... .......... 17% 30.7K 7h44m
+177950K .......... .......... .......... .......... .......... 17% 36.3K 7h44m
+178000K .......... .......... .......... .......... .......... 17% 26.3K 7h44m
+178050K .......... .......... .......... .......... .......... 17% 30.0K 7h44m
+178100K .......... .......... .......... .......... .......... 17% 24.3K 7h44m
+178150K .......... .......... .......... .......... .......... 17% 26.4K 7h44m
+178200K .......... .......... .......... .......... .......... 17% 30.4K 7h44m
+178250K .......... .......... .......... .......... .......... 17% 24.9K 7h44m
+178300K .......... .......... .......... .......... .......... 17% 21.5K 7h44m
+178350K .......... .......... .......... .......... .......... 17% 29.8K 7h44m
+178400K .......... .......... .......... .......... .......... 17% 25.2K 7h44m
+178450K .......... .......... .......... .......... .......... 17% 21.0K 7h45m
+178500K .......... .......... .......... .......... .......... 17% 35.4K 7h44m
+178550K .......... .......... .......... .......... .......... 17% 32.3K 7h44m
+178600K .......... .......... .......... .......... .......... 17% 36.2K 7h44m
+178650K .......... .......... .......... .......... .......... 17% 25.4K 7h44m
+178700K .......... .......... .......... .......... .......... 17% 44.4K 7h44m
+178750K .......... .......... .......... .......... .......... 17% 56.9K 7h44m
+178800K .......... .......... .......... .......... .......... 17% 38.2K 7h44m
+178850K .......... .......... .......... .......... .......... 17% 30.2K 7h44m
+178900K .......... .......... .......... .......... .......... 17% 36.9K 7h44m
+178950K .......... .......... .......... .......... .......... 17% 39.0K 7h43m
+179000K .......... .......... .......... .......... .......... 17% 30.9K 7h43m
+179050K .......... .......... .......... .......... .......... 17% 49.6K 7h43m
+179100K .......... .......... .......... .......... .......... 17% 39.3K 7h43m
+179150K .......... .......... .......... .......... .......... 17% 38.7K 7h43m
+179200K .......... .......... .......... .......... .......... 17% 27.3K 7h43m
+179250K .......... .......... .......... .......... .......... 17% 54.5K 7h43m
+179300K .......... .......... .......... .......... .......... 17% 24.8K 7h43m
+179350K .......... .......... .......... .......... .......... 17% 43.1K 7h42m
+179400K .......... .......... .......... .......... .......... 17% 42.3K 7h42m
+179450K .......... .......... .......... .......... .......... 17% 29.9K 7h42m
+179500K .......... .......... .......... .......... .......... 17% 23.7K 7h42m
+179550K .......... .......... .......... .......... .......... 17% 19.1K 7h43m
+179600K .......... .......... .......... .......... .......... 17% 23.8K 7h43m
+179650K .......... .......... .......... .......... .......... 17% 28.6K 7h43m
+179700K .......... .......... .......... .......... .......... 17% 28.8K 7h43m
+179750K .......... .......... .......... .......... .......... 17% 22.3K 7h43m
+179800K .......... .......... .......... .......... .......... 17% 35.6K 7h43m
+179850K .......... .......... .......... .......... .......... 17% 23.9K 7h43m
+179900K .......... .......... .......... .......... .......... 17% 24.9K 7h43m
+179950K .......... .......... .......... .......... .......... 17% 27.6K 7h43m
+180000K .......... .......... .......... .......... .......... 17% 27.0K 7h43m
+180050K .......... .......... .......... .......... .......... 17% 29.5K 7h43m
+180100K .......... .......... .......... .......... .......... 17% 28.5K 7h43m
+180150K .......... .......... .......... .......... .......... 17% 28.8K 7h43m
+180200K .......... .......... .......... .......... .......... 17% 19.7K 7h43m
+180250K .......... .......... .......... .......... .......... 17% 55.2K 7h43m
+180300K .......... ...
